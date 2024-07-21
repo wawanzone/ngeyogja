@@ -1,0 +1,1671 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <title>NGEYOGYA Boutique Villa</title>
+        <meta name="description" content="Boutique Villa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <link href="assets/css/main.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v1.9.5/dist/alpine.js"></script>
+        <script src="assets/js/preline.js"></script>
+        <script src="assets/js/main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="assets/img/favicon.ico">
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Tenor+Sans&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <style>
+            .tenor-sans {
+            font-family: "Tenor Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            }
+            .dm-sans {
+            font-family: "DM Sans", sans-serif;
+            }
+            .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+            }
+        </style>
+    </head>
+    <body class="dm-sans">
+        <!-- ========== HEADER ========== -->
+        <header
+            class="absolute top-0 z-50 flex flex-wrap w-full py-4 border-b max-sm:backdrop-blur-sm md:justify-start md:flex-nowrap border-white/10">
+            <nav class="relative grid items-center justify-between w-full grid-cols-1 gap-3 px-4 mx-auto md:flex max-w-7xl md:px-6 "
+                aria-label="Global">
+                <div class="flex items-center justify-between gap-3">
+                    <a class="inline-block text-4xl md:hidden focus:outline-none focus:opacity-80" href="https://ngeyogja.com/">
+                    <img src="assets/img/logo-min.png" alt="" class="w-full max-w-[200px] brightness-200 saturate-0">
+                    </a>
+                    <!-- Button Group -->
+                    <div class="flex items-center py-1 gap-x-2 ms-auto md:ps-6 md:order-3 md:col-span-3">
+                        <div class="md:hidden">
+                            <button type="button"
+                                class="hs-collapse-toggle size-[38px] flex justify-center items-center text-sm font-semibold  border border-yellow-600/20  hover:bg-gray-100/10 text-white disabled:opacity-50 disabled:pointer-events-none"
+                                data-hs-collapse="#navbar-collapse-with-animation"
+                                aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+                                <svg class="flex-shrink-0 hs-collapse-open:hidden size-4" xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="3" x2="21" y1="6" y2="6" />
+                                    <line x1="3" x2="21" y1="12" y2="12" />
+                                    <line x1="3" x2="21" y1="18" y2="18" />
+                                </svg>
+                                <svg class="flex-shrink-0 hidden hs-collapse-open:block size-4"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 6 6 18" />
+                                    <path d="m6 6 12 12" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- End Button Group -->
+                </div>
+                <!-- Collapse -->
+                <div id="navbar-collapse-with-animation"
+                    class="hidden w-full overflow-hidden transition-all duration-300 md:flex hs-collapse ">
+                    <div
+                        class="grid grid-cols-1 md:flex w-full mt-5 text-sm sm:tracking-[5px] font-semibold  text-white uppercase gap-y-4 gap-x-0 md:justify-between md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
+                        <div class="grid items-center justify-between w-full grid-cols-1 md:flex gap-9">
+                            <div>
+                                <a class="inline-block hover:text-gray-400" href="#home">Home</a>
+                            </div>
+                            <div>
+                                <a class="inline-block hover:text-gray-400" href="#fasilitas">Fasilitas</a>
+                            </div>
+                            <div class="mx-auto md:col-span-3 max-md:hidden">
+                                <!-- Logo -->
+                                <a class="flex-none inline-block text-4xl focus:outline-none focus:opacity-80" href="https://ngeyogja.com/">
+                                <img src="assets/img/logo.png" alt="" class="w-[200px] brightness-200 saturate-0">
+                                </a>
+                                <!-- End Logo -->
+                            </div>
+                            <div>
+                                <a class="inline-block mr-10 hover:text-gray-400" href="#lokasi">Lokasi</a>
+                            </div>
+                            <div>
+                                <a class="inline-block hover:text-gray-400" href="#kontak">Kontak</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Collapse -->
+            </nav>
+        </header>
+        <!-- ========== END HEADER ========== -->
+        <section id="home">
+            <div class="w-full bg-white dark:bg-neutral-800">
+                <div data-hs-carousel='{
+                    "loadingClasses": "opacity-0",
+                    "isAutoPlay": "true",
+                    "speed": "6000"
+                    }' class="relative">
+                    <div class="relative w-full h-screen overflow-hidden bg-white hs-carousel">
+                        <div
+                            class="absolute top-0 bottom-0 flex transition-transform duration-700 opacity-0 hs-carousel-body start-0 flex-nowrap">
+                            <div class="hs-carousel-slide">
+                                <div class="flex justify-center h-full text-white bg-cover "
+                                    style="background-image: url('assets/img/ngeyogja-14.webp');">
+                                    <div
+                                        class="flex justify-center w-full h-full p-6 bg-gradient-to-b from-black/70 to-black/0 ">
+                                        <div
+                                            class="grid self-center max-w-2xl grid-cols-1 gap-3 text-center transition duration-700 tenor-sans">
+                                            <div class="text-sm uppercase tracking-[4px] opacity-70">yogyakarta</div>
+                                            <div class="text-3xl md:text-7xl tenor-sans">10 Unit Exclusive Private Pool
+                                                Villa
+                                            </div>
+                                            <div class="mt-10">
+                                                <a href="https://ngeyogja.com/"
+                                                    class="inline-flex items-center w-auto px-6 py-4 text-sm font-medium text-black transition border border-transparent justify-normal gap-x-2 bg-theme-500 hover:bg-theme-600 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-theme-600">
+                                                Hubungi Kami
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hs-carousel-slide">
+                                <div class="flex justify-center h-full text-white bg-cover "
+                                    style="background-image: url('assets/img/ngeyogja-13.webp');">
+                                    <div
+                                        class="flex justify-center w-full h-full p-6 bg-gradient-to-b from-black/70 to-black/0 ">
+                                        <div
+                                            class="grid self-center max-w-2xl grid-cols-1 gap-3 text-center transition duration-700 tenor-sans">
+                                            <div class="text-sm uppercase tracking-[4px] opacity-70">best choice</div>
+                                            <div class="text-3xl md:text-7xl tenor-sans">Strategic Location</div>
+                                            <div class="mt-10">
+                                                <a href="https://ngeyogja.com/"
+                                                    class="inline-flex items-center w-auto px-6 py-4 text-sm font-medium text-black transition border border-transparent justify-normal gap-x-2 bg-theme-500 hover:bg-theme-600 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-theme-600">
+                                                Hubungi Kami
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hs-carousel-slide">
+                                <div class="flex justify-center h-full text-white bg-cover "
+                                    style="background-image: url('assets/img/ngeyogja-15.webp');">
+                                    <div
+                                        class="flex justify-center w-full h-full p-6 bg-gradient-to-b from-black/70 to-black/0 ">
+                                        <div
+                                            class="grid self-center max-w-2xl grid-cols-1 gap-3 text-center transition duration-700 tenor-sans">
+                                            <div class="text-sm uppercase tracking-[4px] opacity-70">high passive income
+                                            </div>
+                                            <div class="text-3xl md:text-7xl tenor-sans">170 Mio / Years</div>
+                                            <div class="mt-10">
+                                                <a href="https://ngeyogja.com/"
+                                                    class="inline-flex items-center w-auto px-6 py-4 text-sm font-medium text-black transition border border-transparent justify-normal gap-x-2 bg-theme-500 hover:bg-theme-600 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-theme-600">
+                                                Hubungi Kami
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-center space-x-2 hs-carousel-pagination bottom-3 start-0 end-0">
+                        <span
+                            class="border border-gray-400 rounded-full cursor-pointer hs-carousel-active:bg-theme-500 hs-carousel-active:border-theme-500 size-3 dark:border-neutral-600 dark:hs-carousel-active:bg-theme-500 dark:hs-carousel-active:border-theme-500"></span>
+                        <span
+                            class="border border-gray-400 rounded-full cursor-pointer hs-carousel-active:bg-theme-500 hs-carousel-active:border-theme-500 size-3 dark:border-neutral-600 dark:hs-carousel-active:bg-theme-500 dark:hs-carousel-active:border-theme-500"></span>
+                        <span
+                            class="border border-gray-400 rounded-full cursor-pointer hs-carousel-active:bg-theme-500 hs-carousel-active:border-theme-500 size-3 dark:border-neutral-600 dark:hs-carousel-active:bg-theme-500 dark:hs-carousel-active:border-theme-500"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Hero -->
+            <div class="">
+                <div class="max-w-5xl px-4 pt-24 mx-auto text-center xl:px-0">
+                    <div class="grid grid-cols-1 gap-3">
+                        <div class="text-sm uppercase tracking-[4px] opacity-70">High ROI</div>
+                        <div class="text-3xl md:text-7xl tenor-sans">Profit Tertinggi dalam 20 Tahun Kedepan</div>
+                        <p class="mt-5 leading-6 tracking-wide">
+                            Investasi dalam villa di lokasi wisata populer dapat memberikan ROI hingga 60% per tahun selama
+                            20 tahun. Permintaan tinggi untuk akomodasi premium, nilai properti yang meningkat, dan
+                            pendapatan sewa yang signifikan memastikan keuntungan besar. Villa yang dikelola dan
+                            dipromosikan dengan baik dapat memaksimalkan hunian sepanjang tahun.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Hero -->
+        </section>
+        <section>
+            <!-- Stats -->
+            <div class="">
+                <div class="max-w-5xl px-4 py-10 pb-24 mx-auto xl:px-0">
+                    <div
+                        class="grid grid-cols-3 my-10 overflow-hidden text-sm leading-6 text-center divide-x divide-yellow-600/20 bg-theme-300">
+                        <div class="px-4 py-8">
+                            <div class="relative mx-auto text-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="mx-auto size-8 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205 3 1m1.5.5-1.5-.5M6.75 7.364V3h-3v18m3-13.636 10.5-3.819" />
+                                </svg>
+                                <div class="mt-3 sm:mt-5">
+                                    <h3 class="text-lg font-semibold text-theme-700 sm:text-6xl tenor-sans">10+</h3>
+                                    <p class="mt-1 text-sm sm:text-base text-neutral-600">Units</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-4 py-8">
+                            <div class="relative mx-auto text-center ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="mx-auto size-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 18.75a60.07 60.07 0 0 1 15.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 0 1 3 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 0 0-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 0 1-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 0 0 3 15h-.75M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm3 0h.008v.008H18V10.5Zm-12 0h.008v.008H6V10.5Z" />
+                                </svg>
+                                <div class="mt-3 sm:mt-5">
+                                    <h3 class="text-lg font-semibold text-theme-700 sm:text-6xl tenor-sans">70%</h3>
+                                    <p class="mt-1 text-sm sm:text-base text-neutral-600">ROI</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="px-4 py-8">
+                            <div class="relative text-center ">
+                                <svg class="flex-shrink-0 mx-auto size-8" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17" />
+                                    <path
+                                        d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9" />
+                                    <path d="m2 16 6 6" />
+                                    <circle cx="16" cy="9" r="2.9" />
+                                    <circle cx="6" cy="5" r="3" />
+                                </svg>
+                                <div class="mt-3 sm:mt-5">
+                                    <h3 class="text-lg font-semibold text-theme-700 sm:text-6xl tenor-sans">5,5M+</h3>
+                                    <p class="mt-1 text-sm sm:text-base text-neutral-600">Value</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Stats -->
+        </section>
+        <section class="text-white bg-theme-800" id="type">
+            <!-- Card Blog -->
+            <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <!-- Grid -->
+                <!-- Title -->
+                <div class="grid grid-cols-1 gap-3 mb-12 text-center">
+                    <div class="text-sm uppercase tracking-[4px] opacity-70">unit</div>
+                    <div class="text-3xl md:text-7xl tenor-sans">3 Type Unit</div>
+                </div>
+                <!-- End Title -->
+                <!-- End Grid -->
+                <div class="w-full max-w-3xl mx-auto">
+                    <div class="flex justify-center px-4 mx-auto">
+                        <nav class="flex justify-center gap-3 p-3 " aria-label="Tabs" role="tablist">
+                            <button type="button" class="inline-flex items-center px-4 py-2 border sm:px-6 sm:py-3 text-theme-500 border-theme-500 tenor-sans hs-tab-active:font-semibold hs-tab-active:bg-theme-600 hs-tab-active:text-white whitespace-nowrap hover:text-yellow-600 disabled:opacity-50 disabled:pointer-events-none active" id="villa-tab-1" data-hs-tab="#villa-nova" aria-controls="villa-nova" role="tab">
+                            <span class="mr-2 max-sm:hidden">VILLA </span> NOVA
+                            </button>
+                            <button type="button" class="inline-flex items-center px-4 py-2 border sm:px-6 sm:py-3 text-theme-500 border-theme-500 tenor-sans hs-tab-active:font-semibold hs-tab-active:bg-theme-600 hs-tab-active:text-white whitespace-nowrap hover:text-yellow-600 disabled:opacity-50 disabled:pointer-events-none" id="villa-tab-2" data-hs-tab="#villa-nara" aria-controls="villa-nara" role="tab">
+                            <span class="mr-2 max-sm:hidden">VILLA </span> NARA
+                            </button>
+                            <button type="button" class="inline-flex items-center px-4 py-2 border sm:px-6 sm:py-3 text-theme-500 border-theme-500 tenor-sans hs-tab-active:font-semibold hs-tab-active:bg-theme-600 hs-tab-active:text-white whitespace-nowrap hover:text-yellow-600 disabled:opacity-50 disabled:pointer-events-none" id="villa-tab-3" data-hs-tab="#villa-nook" aria-controls="villa-nook" role="tab">
+                            <span class="mr-2 max-sm:hidden">VILLA </span> NOOK
+                            </button>
+                        </nav>
+                    </div>
+                    <div class="mt-10">
+                        <div id="villa-nova" role="tabpanel" aria-labelledby="villa-tab-1">
+                            <div class="flex flex-col w-full h-full shadow-sm bg-theme-300 group ">
+                                <div
+                                    class="flex flex-col items-center justify-center overflow-hidden bg-theme-500 h-79 ">
+                                    <div class="w-full bg-white shadow-md">
+                                        <div data-hs-carousel='{
+                                            "loadingClasses": "opacity-0",
+                                            "isAutoPlay": "true",
+                                            "speed": "3000"
+                                            }' class="relative">
+                                            <div class="relative w-full overflow-hidden bg-white hs-carousel ">
+                                                <div class="top-0 bottom-0 flex transition-transform duration-700 opacity-0 hs-carousel-body start-0 flex-nowrap">
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-6.webp"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-7.webp"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-8.webp"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="hs-carousel-prev hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-white hover:bg-black/20 ">
+                                                <span class="text-2xl" aria-hidden="true">
+                                                    <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="m15 18-6-6 6-6"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="sr-only">Previous</span>
+                                            </button>
+                                            <button type="button" class="hs-carousel-next hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 end-0 inline-flex justify-center items-center w-[46px] h-full text-white hover:bg-black/20 ">
+                                                <span class="sr-only">Next</span>
+                                                <span class="text-2xl" aria-hidden="true">
+                                                    <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="m9 18 6-6-6-6"></path>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 text-white bg-theme-600 md:p-6">
+                                    <h3 class="flex items-center justify-between mb-5 text-3xl font-semibold tenor-sans">
+                                        Villa Nova <span class="text-xl">96m<sup>2</sup></span>
+                                    </h3>
+                                    <hr class="my-4 border-theme-100/10">
+                                    <ul class="grid grid-cols-2 gap-2 mt-3 text-base">
+                                        <li>
+                                            <span>• Private Pool</span>
+                                        </li>
+                                        <li>
+                                            <span>• Kursi Sofa Pergola</span>
+                                        </li>
+                                        <li>
+                                            <span>• AC</span>
+                                        </li>
+                                        <li>
+                                            <span>• Water Heater</span>
+                                        </li>
+                                        <li>
+                                            <span>• Bathtub</span>
+                                        </li>
+                                        <li>
+                                            <span>• Smart TV / Proyektor</span>
+                                        </li>
+                                        <li>
+                                            <span>• Sofa Nyaman</span>
+                                        </li>
+                                        <li>
+                                            <span>• Pergola Taman</span>
+                                        </li>
+                                        <li>
+                                            <span>• Lingkungan Nyaman</span>
+                                        </li>
+                                        <li>
+                                            <span>• CCTV</span>
+                                        </li>
+                                        <li>
+                                            <span>• Parkir Area</span>
+                                        </li>
+                                        <li>
+                                            <span>• Lobby</span>
+                                        </li>
+                                        <li>
+                                            <span>• Security 24 Jam</span>
+                                        </li>
+                                        <li>
+                                            <span>• Wifi</span>
+                                        </li>
+                                    </ul>
+                                    <div class="flex justify-start gap-4 mt-10 text-white/70">
+                                        <span class="material-symbols-outlined">
+                                            wifi
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            ac_unit
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            bathtub
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            bed
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            nest_cam_indoor
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            water_heater
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            connected_tv
+                                            </span>
+                                            <span class="material-symbols-outlined">
+                                                chair
+                                                </span>
+                                    </div>
+                                    <hr class="my-4 border-theme-100/10">
+                                    <div class="text-xl text-right text-theme-300 tenor-sans">
+                                        Only Rp270.000.000
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="villa-nara" class="hidden" role="tabpanel" aria-labelledby="villa-tab-2">
+                            <div class="flex flex-col w-full h-full shadow-sm bg-theme-300 group ">
+                                <div
+                                    class="flex flex-col items-center justify-center overflow-hidden bg-theme-500 h-79 ">
+                                    <div class="w-full bg-white shadow-md">
+                                        <div data-hs-carousel='{
+                                            "loadingClasses": "opacity-0",
+                                            "isAutoPlay": "true",
+                                            "speed": "3000"
+                                            }' class="relative">
+                                            <div class="relative w-full overflow-hidden bg-white hs-carousel ">
+                                                <div class="top-0 bottom-0 flex transition-transform duration-700 opacity-0 hs-carousel-body start-0 flex-nowrap">
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-9.webp"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-10.webp"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-11.webp"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="hs-carousel-prev hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-white hover:bg-black/20 ">
+                                                <span class="text-2xl" aria-hidden="true">
+                                                    <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="m15 18-6-6 6-6"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="sr-only">Previous</span>
+                                            </button>
+                                            <button type="button" class="hs-carousel-next hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 end-0 inline-flex justify-center items-center w-[46px] h-full text-white hover:bg-black/20 ">
+                                                <span class="sr-only">Next</span>
+                                                <span class="text-2xl" aria-hidden="true">
+                                                    <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="m9 18 6-6-6-6"></path>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 text-white bg-theme-700 md:p-6">
+                                    <h3 class="flex items-center justify-between mb-5 text-3xl font-semibold tenor-sans">
+                                        Villa Nara <span class="text-xl">96m<sup>2</sup></span>
+                                    </h3>
+                                    <hr class="my-4 border-theme-100/10">
+                                    <ul class="grid grid-cols-2 gap-2 mt-3 text-base">
+                                        <li>
+                                            <span>• Private Pool</span>
+                                        </li>
+                                        <li>
+                                            <span>• Kursi Sofa Pergola</span>
+                                        </li>
+                                        <li>
+                                            <span>• AC</span>
+                                        </li>
+                                        <li>
+                                            <span>• Water Heater</span>
+                                        </li>
+                                        <li>
+                                            <span>• Bathtub</span>
+                                        </li>
+                                        <li>
+                                            <span>• Smart TV / Proyektor</span>
+                                        </li>
+                                        <li>
+                                            <span>• Sofa Nyaman</span>
+                                        </li>
+                                        <li>
+                                            <span>• Pergola Taman</span>
+                                        </li>
+                                        <li>
+                                            <span>• Lingkungan Nyaman</span>
+                                        </li>
+                                        <li>
+                                            <span>• CCTV</span>
+                                        </li>
+                                        <li>
+                                            <span>• Parkir Area</span>
+                                        </li>
+                                        <li>
+                                            <span>• Lobby</span>
+                                        </li>
+                                        <li>
+                                            <span>• Security 24 Jam</span>
+                                        </li>
+                                        <li>
+                                            <span>• Wifi</span>
+                                        </li>
+                                    </ul>
+                                    <div class="flex justify-start gap-4 mt-10 text-white/70">
+                                        <span class="material-symbols-outlined">
+                                            wifi
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            ac_unit
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            bathtub
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            bed
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            nest_cam_indoor
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            water_heater
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            connected_tv
+                                            </span>
+                                            <span class="material-symbols-outlined">
+                                                chair
+                                                </span>
+                                    </div>
+                                    <hr class="my-4 border-theme-100/10">
+                                    <div class="text-xl text-right text-theme-300 tenor-sans">
+                                        Only Rp290.000.000
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="villa-nook" class="hidden" role="tabpanel" aria-labelledby="villa-tab-3">
+                            <div class="flex flex-col w-full h-full shadow-sm bg-theme-300 group ">
+                                <div
+                                    class="flex flex-col items-center justify-center overflow-hidden bg-theme-500 h-79 ">
+                                    <div class="w-full bg-white shadow-md">
+                                        <div data-hs-carousel='{
+                                            "loadingClasses": "opacity-0",
+                                            "isAutoPlay": "true",
+                                            "speed": "3000"
+                                            }' class="relative">
+                                            <div class="relative w-full overflow-hidden bg-white hs-carousel ">
+                                                <div class="top-0 bottom-0 flex transition-transform duration-700 opacity-0 hs-carousel-body start-0 flex-nowrap">
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-12.webp"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-10.webp"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-14.webp"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-interior-15.webp"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="hs-carousel-slide">
+                                                        <img loading="lazy" src="assets/img/ngeyogja-interior-16.webp"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="hs-carousel-prev hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-[46px] h-full text-white hover:bg-black/20 ">
+                                                <span class="text-2xl" aria-hidden="true">
+                                                    <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="m15 18-6-6 6-6"></path>
+                                                    </svg>
+                                                </span>
+                                                <span class="sr-only">Previous</span>
+                                            </button>
+                                            <button type="button" class="hs-carousel-next hs-carousel:disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 end-0 inline-flex justify-center items-center w-[46px] h-full text-white hover:bg-black/20 ">
+                                                <span class="sr-only">Next</span>
+                                                <span class="text-2xl" aria-hidden="true">
+                                                    <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                                        <path d="m9 18 6-6-6-6"></path>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-4 text-white bg-theme-900 md:p-6">
+                                    <h3 class="flex items-center justify-between mb-5 text-3xl font-semibold tenor-sans">
+                                        Villa Nook <span class="text-xl">104m<sup>2</sup></span>
+                                    </h3>
+                                    <hr class="my-4 border-theme-100/10">
+                                    <ul class="grid grid-cols-2 gap-2 mt-3 text-base">
+                                        <li>
+                                            <span>• Private Pool</span>
+                                        </li>
+                                        <li>
+                                            <span>• Kursi Sofa Pergola</span>
+                                        </li>
+                                        <li>
+                                            <span>• AC</span>
+                                        </li>
+                                        <li>
+                                            <span>• Water Heater</span>
+                                        </li>
+                                        <li>
+                                            <span>• Bathtub</span>
+                                        </li>
+                                        <li>
+                                            <span>• Smart TV / Proyektor</span>
+                                        </li>
+                                        <li>
+                                            <span>• Sofa Nyaman</span>
+                                        </li>
+                                        <li>
+                                            <span>• Pergola Taman</span>
+                                        </li>
+                                        <li>
+                                            <span>• Lingkungan Nyaman</span>
+                                        </li>
+                                        <li>
+                                            <span>• CCTV</span>
+                                        </li>
+                                        <li>
+                                            <span>• Parkir Area</span>
+                                        </li>
+                                        <li>
+                                            <span>• Lobby</span>
+                                        </li>
+                                        <li>
+                                            <span>• Security 24 Jam</span>
+                                        </li>
+                                        <li>
+                                            <span>• Wifi</span>
+                                        </li>
+                                    </ul>
+                                    <div class="flex justify-start gap-4 mt-10 text-white/70">
+                                        <span class="material-symbols-outlined">
+                                            wifi
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            ac_unit
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            bathtub
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            bed
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            nest_cam_indoor
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            water_heater
+                                            </span>
+                                        <span class="material-symbols-outlined">
+                                            connected_tv
+                                            </span>
+                                            <span class="material-symbols-outlined">
+                                                chair
+                                                </span>
+                                    </div>
+                                    <hr class="my-4 border-theme-100/10">
+                                    <div class="text-xl text-right text-theme-300 tenor-sans">
+                                        Only Rp315.000.000
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Card Blog -->
+        </section>
+        <section id="fasilitas">
+            <!-- Features -->
+            <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <!-- Grid -->
+                <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
+                    <div>
+                        <img class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-5.webp"
+                            alt="Image Description">
+                        <img class="object-cover w-full h-auto md:translate-x-10 md:-translate-y-10"
+                            src="assets/img/ngeyogja-interior-10.webp" alt="Image Description">
+                    </div>
+                    <!-- End Col -->
+                    <div class="mt-5 sm:mt-10 lg:mt-0">
+                        <div class="space-y-6 sm:space-y-8">
+                            <!-- Title -->
+                            <div class="grid grid-cols-1 gap-3">
+                                <div class="text-sm uppercase tracking-[4px] opacity-70">benefit</div>
+                                <div class="text-3xl md:text-7xl tenor-sans">The Best You Can Get</div>
+                            </div>
+                            <!-- End Title -->
+                            <!-- List -->
+                            <ul class="space-y-2 sm:space-y-4 tenor-sans">
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    10 Unit Exclusive Private Pool Villa
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Leasehold 20th diatas tanah SHM
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Fully Furnished
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Strategic Location
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Comfortable & quite place
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Investasi masa depan= investasi properti
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Passive income mulai dari 150jt per tahun
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Bisa dikelola sendiri atau melalui estate management kami dengan bagi hasil 70:30
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Legalitas IMB PGB Tanah SHM
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    BEP up to 2-3 years
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Bisa dijual belikan kembali lewat notaris
+                                    </span>
+                                </li>
+                                <li class="flex space-x-3">
+                                    <span
+                                        class="mt-0.5 size-5 flex flex-none justify-center items-center rounded-full bg-theme-500 text-yellow-50">
+                                        <svg class="flex-shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24"
+                                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                            <polyline points="20 6 9 17 4 12" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-sm text-gray-800 sm:text-base">
+                                    Free Biaya Transaksi dan Akta Notaris
+                                    </span>
+                                </li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Grid -->
+            </div>
+            <!-- End Features -->
+        </section>
+        <section id="gallery">
+            <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <div class="grid grid-cols-1 gap-3 mb-20 text-center">
+                    <div class="text-sm uppercase tracking-[4px] opacity-70">Look</div>
+                    <div class="text-3xl md:text-7xl tenor-sans">What Inside the Villa</div>
+                    <p class="max-w-2xl mx-auto mt-5 leading-6 tracking-wide">
+                        Salah satu keuntungan utama dari villa full furnished adalah Anda dapat langsung menghuni tanpa
+                        perlu repot membeli dan menata perabotan.
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 gap-2 sm:grid-cols-4">
+                    <div class="space-y-2">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-22.webp" alt="Image Description">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-6.webp" alt="Image Description">
+                    </div>
+                    <div class="space-y-2">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-3.webp" alt="Image Description">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-4.webp" alt="Image Description">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-62.webp" alt="Image Description">
+                    </div>
+                    <div class="space-y-2">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-15.webp" alt="Image Description">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-23.webp" alt="Image Description">
+                    </div>
+                    <div class="space-y-2">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-60.webp" alt="Image Description">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-28.webp" alt="Image Description">
+                        <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-interior-44.webp" alt="Image Description">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="relative overflow-hidden">
+            <!-- Table Section -->
+            <div class="block md:flex justify-between items-center max-w-[85rem] mx-auto ">
+                <div class="grid grid-cols-1 gap-3 px-4 py-10 place-content-start sm:px-6 lg:px-8 lg:py-14 ">
+                    <div class="text-sm uppercase tracking-[4px] opacity-70">Simulasi</div>
+                    <div class="text-3xl md:text-7xl tenor-sans"> Tabel Pendapatan Tahunan Villa <img loading="lazy" src="assets/img/logo-min.webp" alt="" class="w-full max-w-sm">
+                        </a>
+                    </div>
+                    <div class="tenor-sans">
+                        <p class="text-gray-600 ">
+                            Dengan Okupasi Rate <span class="text-green-500">40%</span> dalam 146 Hari
+                        </p>
+                        <hr class="my-5">
+                        <p>
+                            Modal pembelian <span class="text-theme-700">Rp  300.000.000</span>
+                        <p>
+                            Harga rata-rata per hari <span class="text-theme-700">Rp 835.000</span> 
+                        </p>
+                        <p>
+                            Okupansi rate  <span class="text-theme-700">40%</span> 
+                        </p>
+                        <p>
+                            Total hari dalam satu tahun <span class="text-theme-700">146 </span> 
+                        </p>
+                        <p>
+                            Total pendapatan tahun pertama <span class="text-theme-700">Rp 121.910.000 </span> 
+                        </p>
+                    </div>
+                    <div class="p-4 mt-2 text-sm text-gray-600 border border-gray-200 rounded-lg bg-gray-50" role="alert">
+                        <ul class="space-y-1 list-disc ps-5">
+                            <li>
+                                Simulasi hitungan diatas berdasarkan data yang kami kumpulkan beserta riset dan development 
+                            </li>
+                            <li>
+                                Okupansi rate 40% dengan skema terendah (data BPS Prov. Yogyakarta 2023 sebesar 59%)
+                            </li>
+                            <li>
+                                Kenaikan harga sewa per Tahun yaitu 8% 
+                            </li>
+                            <li>
+                                Biaya Management dan Maintenance bulanan yaitu sebesar 20% dari pendapatan sewa per bulan Estimasi BEP di tahun ke-3 
+                            </li>
+                            <li>
+                                Estimasi keuntungan selama 20 Tahun yaitu 1382% Estimasi rata-rata ROI dalam 20 Tahun yaitu 69%
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+                    <!-- Card -->
+                    <div class="flex flex-col">
+                        <div class="-m-1.5 overflow-x-auto">
+                            <div class="p-1.5 max-w-5xl inline-block align-middle">
+                                <div class="z-10 overflow-hidden shadow-sm bg-theme-300 ">
+                                    <!-- Table -->
+                                    <table class="min-w-full font-sans bg-white divide-y divide-yellow-900/20">
+                                        <div class="sticky top-0"></div>
+                                        <thead class="text-white bg-theme-600">
+                                            <tr>
+                                                <th scope="col" class="px-6 py-3 text-start whitespace-nowrap">
+                                                    <span
+                                                        class="text-xs font-semibold tracking-wide text-right text-white uppercase">
+                                                    Tahun
+                                                    </span>
+                                                </th>
+                                                <th scope="col" class="px-6 py-3 text-start whitespace-nowrap">
+                                                    <span
+                                                        class="text-xs font-semibold tracking-wide text-right text-white uppercase">
+                                                    Price in year +8%/year
+                                                    </span>
+                                                </th>
+                                                <th scope="col" class="px-6 py-3 text-start whitespace-nowrap">
+                                                    <span
+                                                        class="text-xs font-semibold tracking-wide text-right text-white uppercase">
+                                                    Operational Cost 20%
+                                                    </span>
+                                                </th>
+                                                <th scope="col" class="px-6 py-3 text-start whitespace-nowrap">
+                                                    <span
+                                                        class="text-xs font-semibold tracking-wide text-right text-white uppercase">
+                                                    Nett Profit
+                                                    </span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="divide-y divide-yellow-900/20">
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2025</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 121.910.000,00</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 24.382.000,00</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-red-500"><span class="text-gray-400">Rp</span> 97.528.000,00</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2026</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 131.662.800,00</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 26.332.560,00</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-red-500"><span class="text-gray-400">Rp</span> 105.330.240,00</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2027</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 142.195.824,00</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 28.439.164,80</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-red-500"><span class="text-gray-400">Rp</span> 113.756.659,20</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2028</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 153.571.489,92</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 30.714.297,98</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 122.857.191,94</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2029</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 165.857.209,11</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 33.171.441,82</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 132.685.767,29</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2030</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 179.125.785,84</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 35.825.157,17</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 143.300.628,67</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2031</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 193.455.848,71</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 38.691.169,74</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 154.764.678,97</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2032</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span>208.932.316,61</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 41.786.463,32</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 167.145.853,29</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2033</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 225.646.901,94</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 45.129.380,39</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 180.517.521,55</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2034</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 243.698.654,09</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 48.739.730,82</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 194.958.923,27</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2035</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 263.194.546,42</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 52.638.909,28</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 210.555.637,13</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2036</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 284.250.110,13</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 56.850.022,03</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 227.400.088,10</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2037</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 306.990.118,94</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 61.398.023,79</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 245.592.095,15</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2038</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 331.549.328,46</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 66.309.865,69</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 265.239.462,77</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2039</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 358.073.274,73</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 71.614.654,95</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 286.458.619,79</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2040</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 386.719.136,71</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 77.343.827,34</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 309.375.309,37</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2041</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 417.656.667,65</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 83.531.333,53</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 334.125.334,12</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2042</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 451.069.201,06</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 90.213.840,21</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 360.855.360,85</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2043</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 487.154.737,15</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 97.430.947,43</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 389.723.789,72</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm text-gray-800">2043</span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 526.127.116,12</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-gray-800"><span class="text-gray-400">Rp</span> 105.225.423,22</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm text-green-500"><span class="text-gray-400">Rp</span> 420.901.692,89</span>
+                                                </td>
+                                            </tr>
+                                            <tr class="text-white bg-theme-600">
+                                                <td class="px-6 py-3 size-px whitespace-nowrap">
+                                                    <button type="button" class="flex items-center gap-x-2">
+                                                    <span class="text-sm font-bold "></span>
+                                                    </button>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm font-bold "><span class="text-white/40">Rp</span> 5.578.841.067,58</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm font-bold "><span class="text-white/40">Rp</span> 1.115.768.213,52</span>
+                                                </td>
+                                                <td class="px-6 py-3 text-right size-px whitespace-nowrap">
+                                                    <span class="text-sm font-bold "><span class="text-white/40">Rp</span> 4.463.072.854,07</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- End Table -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Card -->
+                </div>
+            </div>
+            <!-- End Table Section -->
+        </section>
+        <section class="relative my-20">
+            <div class="grid grid-cols-2 gap-2 sm:grid-cols-4">
+                <div class="space-y-2">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-1.webp" alt="Image Description">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-2.webp" alt="Image Description">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-5.webp" alt="Image Description">
+                </div>
+                <div class="space-y-2">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-3.webp" alt="Image Description">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-4.webp" alt="Image Description">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-12.webp" alt="Image Description">
+                </div>
+                <div class="space-y-2">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-15.webp" alt="Image Description">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-6.webp" alt="Image Description">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-16.webp" alt="Image Description">
+                </div>
+                <div class="space-y-2">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-7.webp" alt="Image Description">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-8.webp" alt="Image Description">
+                    <img loading="lazy" class="object-cover w-full h-auto" src="assets/img/ngeyogja-10.webp" alt="Image Description">
+                </div>
+            </div>
+        </section>
+        <section id="lokasi">
+            <!-- Testimonials with Stats -->
+            <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <!-- Grid -->
+                <div class="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
+                    <div class="lg:col-span-5 lg:col-start-1">
+                        <!-- Title -->
+                        <div class="grid grid-cols-1 gap-3 mb-20">
+                            <div class="text-sm uppercase tracking-[4px] opacity-70">Look</div>
+                            <div class="text-3xl md:text-7xl tenor-sans">Strategic Location</div>
+                            <p class="max-w-2xl mt-5 leading-6 tracking-wide">
+                                Salah satu faktor terpenting yang harus dipertimbangkan adalah lokasinya. Lokasi strategis
+                                tidak hanya menentukan kenyamanan tinggal, tetapi juga nilai investasi dan daya tarik jangka
+                                panjang. Mari kita telusuri mengapa memilih lokasi yang tepat adalah esensial dalam
+                                pemilihan villa.
+                            </p>
+                        </div>
+                        <!-- End Title -->
+                    </div>
+                    <!-- End Col -->
+                    <div class="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
+                        <div class="space-y-6 sm:space-y-8">
+                            <!-- List -->
+                            <ul class="grid grid-cols-2 overflow-hidden divide-x-2 divide-y-2 divide-yellow-900/20">
+                                
+                                <li class="flex flex-col -m-0.5 p-4 sm:p-8 text-center">
+                                    <div
+                                        class="flex justify-center mb-2 text-3xl font-bold text-theme-700 tenor-sans gap-x-2 sm:text-5xl">
+                                        5min
+                                    </div>
+                                    <p class="text-sm text-gray-600 sm:text-base">
+                                        Kopi Klotok
+                                    </p>
+                                </li>
+                                <li class="flex flex-col -m-0.5 p-4 sm:p-8 text-center">
+                                    <div
+                                        class="flex justify-center mb-2 text-3xl font-bold text-theme-700 tenor-sans gap-x-2 sm:text-5xl">
+                                        5min
+                                    </div>
+                                    <p class="text-sm text-gray-600 sm:text-base">
+                                        UII Jakal
+                                    </p>
+                                </li>
+                                <li class="flex flex-col -m-0.5 p-4 sm:p-8 text-center">
+                                    <div
+                                        class="flex justify-center mb-2 text-3xl font-bold text-theme-700 tenor-sans gap-x-2 sm:text-5xl">
+                                        10min
+                                    </div>
+                                    <p class="text-sm text-gray-600 sm:text-base">
+                                        Wisata Kaliurang
+                                    </p>
+                                </li>
+                                <li class="flex flex-col -m-0.5 p-4 sm:p-8 text-center">
+                                    <div
+                                        class="flex justify-center mb-2 text-3xl font-bold text-theme-700 tenor-sans gap-x-2 sm:text-5xl">
+                                        30min
+                                    </div>
+                                    <p class="text-sm text-gray-600 sm:text-base">
+                                        Pakuwon Mall
+                                    </p>
+                                </li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Grid -->
+            </div>
+            <!-- End Testimonials with Stats -->
+        </section>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1814.7519547212564!2d110.41212520314278!3d-7.697296593892659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5fc5a56257ef%3A0x63a501da8bbc953!2sNgeyogja%20Boutique%20Villa!5e0!3m2!1sen!2sid!4v1721230168014!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
+        </section>
+        <!-- Contact -->
+        <div class="bg-neutral-900" id="kontak">
+            <div class="max-w-5xl px-4 py-10 mx-auto xl:px-0 lg:py-20">
+                <!-- Title -->
+                <!-- Title -->
+                <div class="grid grid-cols-1 gap-3 mb-10 text-center text-white">
+                    <div class="text-sm uppercase tracking-[4px] opacity-70">24 hour</div>
+                    <div class="text-3xl md:text-7xl tenor-sans">Lebih dekat dengan kami</div>
+                </div>
+                <!-- End Title -->
+                <!-- End Title -->
+                <!-- Grid -->
+                <div class="grid grid-cols-1 gap-x-10 lg:gap-x-16">
+                    <!-- <div class="pb-10 mb-10 border-b md:order-2 border-neutral-800 md:border-b-0 md:pb-0 md:mb-0">
+                        <form>
+                            <div class="space-y-4">
+                                <div class="relative">
+                                    <input type="text" id="hs-tac-input-name" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="Name">
+                                    <label for="hs-tac-input-name" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Name</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="email" id="hs-tac-input-email" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="Email">
+                                    <label for="hs-tac-input-email" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Email</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="text" id="hs-tac-input-company" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="Company">
+                                    <label for="hs-tac-input-company" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Company</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="text" id="hs-tac-input-phone" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="Phone">
+                                    <label for="hs-tac-input-phone" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Phone</label>
+                                </div>
+                                <div class="relative">
+                                    <textarea id="hs-tac-message" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="This is a textarea placeholder"></textarea>
+                                    <label for="hs-tac-message" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Tell us about your
+                                        project</label>
+                                </div>
+                            </div> 
+                            <div class="my-5">
+                                <button type="submit"
+                                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-black transition border border-transparent gap-x-2 bg-theme-500 hover:bg-theme-600 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-theme-600">
+                                    Hubungi Kami
+                                </button>
+                            </div>
+                        </form>
+                        </div> -->
+                    <!-- End Col -->
+                    <div class="text-center space-y-14">
+                        <!-- Item -->
+                        <div class="flex flex-col gap-5">
+                            <svg class="flex-shrink-0 mx-auto size-6 text-neutral-500" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                            <div class="grow">
+                                <h4 class="font-semibold text-white">Alamat Kami:</h4>
+                                <h5 class="mt-5 text-2xl tenor-sans text-theme-400">PT LOCCA DEVELOPMENT GROUP</h5>
+                                <address class="mt-1 text-sm not-italic text-neutral-400">
+                                    Jl. Kaliurang Km 12,5 , Sardonoharjo, Ngaglik, Kabupaten Sleman, Daerah
+                                    Istimewa Yogyakarta 
+                                </address>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+                        <!-- Item -->
+                        <div class="flex flex-col gap-5">
+                            <svg class="flex-shrink-0 mx-auto size-6 text-neutral-500" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z" />
+                                <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10" />
+                            </svg>
+                            <div class="grow">
+                                <h4 class="font-semibold text-white">Email us:</h4>
+                                <a class="mt-1 text-sm text-neutral-400" href="https://ngeyogja.com/" target="_blank">
+                                ngeyogjaboutiquevilla@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                        <!-- End Item -->
+                        <!-- Item -->
+                        <a target="_blank" href="https://wa.me/?phone=6282210101886&text=Halo+Kak%2C+saya+tertarik+dengan+Villa+ini&type=phone_number&app_absent=0"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-black transition border border-transparent gap-x-2 bg-theme-500 hover:bg-theme-600 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-theme-600">
+                        Hubungi Kami
+                        </a>
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Grid -->
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!-- ========== FOOTER ========== -->
+        <footer class="relative overflow-hidden bg-neutral-900">
+            <svg class="absolute -bottom-20 start-1/2 w-[1900px] transform -translate-x-1/2" width="2745" height="488"
+                viewBox="0 0 2745 488" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0.5 330.864C232.505 403.801 853.749 527.683 1482.69 439.719C2111.63 351.756 2585.54 434.588 2743.87 487"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 308.873C232.505 381.81 853.749 505.692 1482.69 417.728C2111.63 329.765 2585.54 412.597 2743.87 465.009"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 286.882C232.505 359.819 853.749 483.701 1482.69 395.738C2111.63 307.774 2585.54 390.606 2743.87 443.018"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 264.891C232.505 337.828 853.749 461.71 1482.69 373.747C2111.63 285.783 2585.54 368.615 2743.87 421.027"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 242.9C232.505 315.837 853.749 439.719 1482.69 351.756C2111.63 263.792 2585.54 346.624 2743.87 399.036"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 220.909C232.505 293.846 853.749 417.728 1482.69 329.765C2111.63 241.801 2585.54 324.633 2743.87 377.045"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 198.918C232.505 271.855 853.749 395.737 1482.69 307.774C2111.63 219.81 2585.54 302.642 2743.87 355.054"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 176.927C232.505 249.864 853.749 373.746 1482.69 285.783C2111.63 197.819 2585.54 280.651 2743.87 333.063"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 154.937C232.505 227.873 853.749 351.756 1482.69 263.792C2111.63 175.828 2585.54 258.661 2743.87 311.072"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 132.946C232.505 205.882 853.749 329.765 1482.69 241.801C2111.63 153.837 2585.54 236.67 2743.87 289.082"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 110.955C232.505 183.891 853.749 307.774 1482.69 219.81C2111.63 131.846 2585.54 214.679 2743.87 267.091"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 88.9639C232.505 161.901 853.749 285.783 1482.69 197.819C2111.63 109.855 2585.54 192.688 2743.87 245.1"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 66.9729C232.505 139.91 853.749 263.792 1482.69 175.828C2111.63 87.8643 2585.54 170.697 2743.87 223.109"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 44.9819C232.505 117.919 853.749 241.801 1482.69 153.837C2111.63 65.8733 2585.54 148.706 2743.87 201.118"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 22.991C232.505 95.9276 853.749 219.81 1482.69 131.846C2111.63 43.8824 2585.54 126.715 2743.87 179.127"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+                <path
+                    d="M0.5 1C232.505 73.9367 853.749 197.819 1482.69 109.855C2111.63 21.8914 2585.54 104.724 2743.87 157.136"
+                    class="stroke-neutral-700/50" stroke="currentColor" />
+            </svg>
+            <div class="relative z-10">
+                <div class="w-full max-w-5xl px-4 py-10 mx-auto xl:px-0 lg:pt-16">
+                    <div class="flex flex-col items-center">
+                        <!-- Logo -->
+                        <!-- End Logo -->
+                        <!-- Title -->
+                        <div class="grid justify-center grid-cols-1 gap-6 align-middle">
+                            <a class="flex-none inline-block text-4xl focus:outline-none focus:opacity-80" href="https://ngeyogja.com/">
+                            <img src="assets/img/logo.png" alt=""
+                                class="w-28 sm:w-[200px] mx-auto brightness-200 saturate-0">
+                            </a>
+                            <div class="text-[12px] text-white text-center uppercase  opacity-70">2024 — 
+                                PT LOCCA DEVELOPMENT GROUP
+                            </div>
+                            </p>
+                        </div>
+                        <!-- End Title -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ========== END FOOTER ========== -->
+    </body>
+</html>
