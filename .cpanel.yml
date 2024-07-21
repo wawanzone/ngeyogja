@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/wawanzon/public_html/ngeyogja
+        - /bin cp -R images $DEPLOYPATH 
