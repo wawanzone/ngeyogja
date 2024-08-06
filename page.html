@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NGEYOGYA Boutique Villa</title>
+    <meta name="description" content="Boutique Villa Jogja">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- Preload JS -->
+    <link rel="preload" href="https://code.jquery.com/jquery-3.7.1.min.js" as="script" />
+    <link rel="preload" href="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"
+        as="script" />
+    <link rel="preload" href="assets/js/preline.js" as="script" />
+    <link rel="preload" href="assets/js/main.js" as="script" />
+    <!-- Preload CSS -->
+    <link rel="preload" href="assets/css/main.css" as="style" />
+    <link rel="preload" as="image" href="assets/img/ngeyogja-14.webp">
+    <!-- CSS -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="assets/img/favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Tenor+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .tenor-sans {
+            font-family: "Tenor Sans", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .dm-sans {
+            font-family: "DM Sans", sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
+
+<body class="dm-sans">
+    <!-- ========== HEADER ========== -->
+    <header
+        class="top-0 z-50 flex flex-wrap w-full py-4 border-b  md:justify-start invert md:flex-nowrap border-white/10">
+        <nav class="relative grid items-center justify-between w-full grid-cols-1 gap-3 px-4 mx-auto md:flex max-w-7xl md:px-6 "
+            aria-label="Global">
+            <div class="flex items-center justify-between gap-3">
+                <a class="inline-block text-4xl md:hidden focus:outline-none focus:opacity-80"
+                    href="https://ngeyogja.com/">
+                    <img src="assets/img/logo-min.png" alt="ngeyogja"
+                        class="w-full max-w-[149px] brightness-200 saturate-0">
+                </a>
+                <!-- Button Group -->
+                <div class="flex items-center py-1 gap-x-2 ms-auto md:ps-6 md:order-3 md:col-span-3">
+                    <div class="md:hidden">
+                        <button type="button"
+                            class="hs-collapse-toggle size-[38px] flex justify-center items-center text-sm font-semibold  border border-yellow-600/20  hover:bg-gray-100/10 text-white disabled:opacity-50 disabled:pointer-events-none"
+                            data-hs-collapse="#navbar-collapse-with-animation"
+                            aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+                            <svg class="flex-shrink-0 hs-collapse-open:hidden size-4" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="3" x2="21" y1="6" y2="6" />
+                                <line x1="3" x2="21" y1="12" y2="12" />
+                                <line x1="3" x2="21" y1="18" y2="18" />
+                            </svg>
+                            <svg class="flex-shrink-0 hidden hs-collapse-open:block size-4"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M18 6 6 18" />
+                                <path d="m6 6 12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <!-- End Button Group -->
+            </div>
+            <!-- Collapse -->
+            <div id="navbar-collapse-with-animation"
+                class="hidden w-full overflow-hidden transition-all duration-300 md:flex hs-collapse ">
+                <div
+                    class="grid grid-cols-1 md:flex w-full mt-5 text-sm sm:tracking-[5px] font-semibold  text-white uppercase gap-y-4 gap-x-0 md:justify-between md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
+                    <div class="grid items-center justify-between w-full grid-cols-1 md:flex gap-9">
+                        <div>
+                            <a class="inline-block hover:text-gray-400" href="#home">Home</a>
+                        </div>
+                        <div>
+                            <a class="inline-block hover:text-gray-400" href="#fasilitas">Fasilitas</a>
+                        </div>
+                        <div class="mx-auto md:col-span-3 max-md:hidden">
+                            <!-- Logo -->
+                            <a class="flex-none inline-block text-4xl focus:outline-none focus:opacity-80"
+                                href="https://ngeyogja.com/">
+                                <img width="200" height="165" src="assets/img/logo.png" alt="ngeyogja"
+                                    class="w-[149px] brightness-200 saturate-0">
+                            </a>
+                            <!-- End Logo -->
+                        </div>
+                        <div>
+                            <a class="inline-block mr-10 hover:text-gray-400" href="#lokasi">Lokasi</a>
+                        </div>
+                        <div>
+                            <a class="inline-block hover:text-gray-400" href="#kontak">Kontak</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Collapse -->
+        </nav>
+    </header>
+    <!-- ========== END HEADER ========== -->
+    <section id="page">
+        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-20 mx-auto ">
+            <article class="prose md:prose-lg lg:prose-xl mx-auto">
+                <article class="detail">
+                    <div class="detail__header">
+                
+        
+        <h1 class="detail__title">
+            Pertimbangan Lengkap Hakim Vonis Bebas Ronald Tannur: Sebut Dini Tak Dilindas    </h1>
+    
+        <div class="detail__author">Haris Fadhil - <span class="detail__label">detikNews</span></div>
+        <div class="detail__date">Selasa, 30 Jul 2024 15:47 WIB</div>
+    </div>
+    
+                        <div class="detail__media">
+            <figure dtr-evt="cover image" dtr-sec="" dtr-act="cover image" onclick="_pt(this)" class="detail__media-image">
+         <img src="https://akcdn.detik.net.id/community/media/visual/2024/07/24/ronald-tannur-terdakwa-pembunuhan-sadis-kekasihnya-dini-divonis-bebas-hakim-pn-surabaya_169.jpeg?w=700&amp;q=90" alt="Ronald Tannur terdakwa pembunuhan sadis kekasihnya, Dini divonis bebas hakim PN Surabaya" title="Ronald Tannur terdakwa pembunuhan sadis kekasihnya, Dini divonis bebas hakim PN Surabaya" class="p_img_zoomin img-zoomin">
+                <figcaption class="detail__media-caption">Ronald Tannur (Praditya Fauzi Rahman/detikJatim)</figcaption>
+        </figure>
+        </div>
+    
+    <!-- S:inbetweenimages --><style>
+    .closebtn{
+    top:-24px;
+    }
+    </style>
+    <div id="inbetween" class="inbetweenDesktop"></div>
+    <!-- /4905536/detik_desktop/news/inbetween -->
+    <div id="div-gpt-ad-1705661518368-0">
+      <!-- <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1705661518368-0'); });
+      </script> -->
+    </div><!-- E:inbetweenimages -->
+    <div class="detail__body itp_bodycontent_wrapper">
+        <div class="detail__body-text itp_bodycontent">
+    
+            <!-- S:Table of Content -->
+                    <!-- E:Table of Content -->
+    
+    
+                        <strong>Jakarta</strong> - <p>Majelis hakim Pengadilan Negeri Surabaya membebaskan Gregorius <a href="https://www.detik.com/tag/ronald-tannur">Ronald Tannur</a> dari tuntutan pidana dalam kasus dugaan pembunuhan. Salah satu pertimbangan hakim ialah Ronald Tannur tidak terbukti melindas Dini Sera Afrianti dengan mobilnya.</p><p>Dalam pertimbangannya, hakim menguraikan isi rekaman CCTV peristiwa yang terjadi di Lenmarc Mall, Rabu (4/10/2023), sekitar pukul 00.23 WIB. Hakim mengatakan CCTV itu menunjukkan mobil Innova abu-abu terparkir, lalu ada seorang wanita yang duduk di samping kiri mobil dan seorang pria masuk mobil.</p><p>Mobil itu kemudian berjalan keluar dari <em>parking lot</em> dan belok ke kanan lalu berhenti. Hakim mengatakan posisi Dini Sera berada di sisi kiri atau luar alur kendaraan terdakwa.</p><!--s:parallaxindetail--><div class="clearfix"></div><style>
+    @import url("https://cdnstatic.detik.com/live/_rmbassets/scrollpage/scrollpage.css");
+    </style>
+    <div class="parallaxindetail scrollpage" style="height:650px;background-color:#F8F8F8;">
+    <p class="para_caption" style="display:block;font-size: 9px;color: rgba(0, 0, 0, 0.55);position: relative;margin:5px;text-align: center;left: 0px;right: 0px;letter-spacing: 0.7px;">
+    ADVERTISEMENT
+    </p>
+    <div class="ads-scrollpage-container">
+    <div class="ads-scrollpage-height" style="height: 600px;width: 100%;margin: auto;">
+    <div class="ads-scrollpage-box">
+    <div class="ads-scrollpage-top" style="top:91px;">
+    <div class="ads-scrollpage-banner">
+    <!-- /4905536/detik_desktop/news/parallax_detail -->
+    <div id="div-gpt-ad-1572507980488-0">
+      <!-- <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1572507980488-0'); });
+      </script> -->
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <p class="para_caption" style="display:block;font-size: 9px;color: rgba(0, 0, 0, 0.55);position: relative;margin: 8px;text-align: center;left: 0px;right: 0px;letter-spacing: 0.7px;">
+    SCROLL TO CONTINUE WITH CONTENT
+    </p>
+    </div><!--e:parallaxindetail--><p>Hakim juga memasukkan keterangan ahli Eddy Suzendi yang dihadirkan sebagai ahli keselamatan berkendara atau kecelakaan lalu lintas dalam pertimbangannya. Dalam keterangannya, sebagaimana dimuat dalam pertimbangan hakim, Eddy menyatakan, ketika seseorang duduk di luar mobil sebelah kiri dalam keadaan duduk, badan akan menerima gesekan, kekuatan dari aksi dan gaya sentrivugal.</p><p>"Ketika seseorang duduk di luar sebelah kendaraan, maka dia akan menerima traksi/gesekan dari permukaan yang dia duduk, dan ketika dia duduk, apabila tarikan kuat, maka dia akan terseret, dan ketika kendaraan tersebut berbelok dia akan menerima gaya sentrivugal, yaitu gaya di mana melingkar ada dorongan ke arah keluar, dipastikan akan keluar dari kurva, pertama dia akan tertarik tergantung dari penampang yang dia <em>dudukin</em> licin atau kesat dan seretan akan panjang dan ketika ada gaya sentrifugal maka dia akan terbuang dan menjauh, sedangkan gaya inersiah adalah gaya di mana pada saat dia diam, maka akan bergerak tetap secara ke depan dan dari inersiah tersebut, maka akan keluar dari gaya. Apabila manusia terikat atau berpegangan, maka ada kemungkinan akan terseret, dan ada kemungkinan akan terbuang, sedangkan ketika apabila dalam keadaan tidak terikat atau dalam keadaan bebas, maka dia akan terbuang karena pasti akan akan terpental. Apabila dia tidak menempel, maka tidak akan ada gesekan aksi," demikian salah satu poin pertimbangan hakim seperti dilihat dari salinan putusan Ronald Tannur, Selasa (30/7/2024).</p><!--s:static_detail--><div class="clearfix"></div><div class="staticdetail_container" style="position:relative; width: 100%;height: 330px;background-color: #f8f8f8;align-content: center; margin: 0px auto 20px;">
+    <span class="para_caption" style="display:block;font-size: 9px;color: rgba(0, 0, 0, 0.55);position: relative;padding: 8px;text-align: center;left: 0px;right: 0px;letter-spacing: 0.7px;top:0">
+    ADVERTISEMENT
+    </span>
+    <div class="staticdetail_ads" style="width:100%;height: 300px;position: relative;text-align: center;">
+    <!-- /4905536/detik_desktop/news/static_detail -->
+    <div id="div-gpt-ad-1708418866690-0">
+      <!-- <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1708418866690-0'); });
+      </script> -->
+    </div>
+    </div>
+    </div><!--e:static_detail--><table class="linksisip"><tbody><tr><td><div class="lihatjg"><strong>Baca juga: </strong><a data-label="List Berita" data-action="Berita Pilihan" data-category="Detil Artikel" href="https://news.detik.com/detiktv/d-7464564/panas-massa-segel-pn-surabaya-gegara-ronald-tannur-bebas">Panas! Massa Segel PN Surabaya Gegara Ronald Tannur Bebas</a></div></td></tr></tbody></table><p>Hakim menyatakan tidak melihat fakta sebagaimana diuraikan jaksa dalam dakwaan. Hakim meyakini Dini berada di luar alur kendaraan yang dikendarai Ronald Tannur.</p><p>"Menimbang bahwa dari uraian pertimbangan hukum yang didasarkan pengamatan hasil CCTV di area parkir <em>basement</em> Lenmarc, dihubungkan dengan pendapat dari Ahli tersebut di atas, Majelis tidak melihat adanya suatu fakta sebagaimana perbuatan yang diuraikan Penuntut Umum di dalam surat dakwaannya, sebagaimana tampilan CCTV di muka persidangan yang telah disaksikan oleh seluruh pihak dalam sidang yang terbuka untuk umum, majelis telah mencermatinya dari sudut pandang kamera CCTV, bahwasanya posisi mobil Terdakwa dari posisi terparkir, akan bergerak, bergerak, dan kemudian berbelok ke kanan, lalu jalan lurus dan berhenti, keberadaan posisi diri Korban Dini Sera Afrianti sejatinya berada di luar dari alur kendaraan yang dikendarai Terdakwa," ujar hakim.</p><p>Atas dasar itu, hakim menilai tidak terdapat perbuatan dari Ronald Tannur yang diniatkan untuk membunuh atau merampas nyawa orang lain.</p><p>"Majelis secara seksama menilai tidak terdapat suatu perbuatan Terdakwa sebagaimana dalam uraian unsur kedua dakwaan Penuntut Umum, yang membuktikan dapat memperlihatkan adanya perbuatan-perbuatan Terdakwa dengan kesengajaan maupun niatan untuk membunuh (merampas) nyawa orang lain," ucapnya.</p><p>Putusan ini memicu kekecewaan dari keluarga Dini. Jaksa pun mengajukan kasasi atas vonis bebas Ronald Tannur.</p><table class="linksisip"><tbody><tr><td><div class="lihatjg"><strong>Baca juga: </strong><a data-label="List Berita" data-action="Berita Pilihan" data-category="Detil Artikel" href="https://news.detik.com/berita/d-7464233/demo-protes-ronald-tannur-bebas-berlanjut-massa-segel-pn-surabaya">Demo Protes Ronald Tannur Bebas Berlanjut, Massa 'Segel' PN Surabaya</a></div></td></tr></tbody></table><p><strong>Simak Video 'Panas! Massa Segel PN Surabaya Gegara Ronald Tannur Bebas':<br></strong></p><p></p><p><div class="sisip_video_ds ratiobox ratiobox--16-9 itp_gambas_video video20detik_0"><iframe scrolling="no" style="border:0;text-align:left;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" importance="high" loading="eager" src="https://20.detik.com/embed/240730088?smartautoplay=true&amp;smartautoplaylazy=true&amp;unmute=true" width="694px" height="390.375px" class="video20detik_0"></iframe></div></p><p></p>        
+            
+            <strong>(haf/dhn)</strong>
+            <div class="detail__body-tag mgt-16">
+                <div class="nav">
+                                    <a class="nav__item" dtr-evt="tag" dtr-sec="" dtr-act="tag" onclick="_pt(this)" dtr-ttl="ronald tannur" href="https://www.detik.com/tag/ronald-tannur/">ronald tannur</a>				<a class="nav__item" dtr-evt="tag" dtr-sec="" dtr-act="tag" onclick="_pt(this)" dtr-ttl="hukum" href="https://www.detik.com/tag/hukum/">hukum</a>            </div>
+            </div>
+    
+            
+            
+            
+        </div>
+        <!-- S:skyscraper --><style>
+    .skybanner {
+    width: 160px;
+    }
+    </style>
+    
+    <div class="skybanner">
+    <div class="sticky">
+    <div class="skybanner_container">
+    
+    
+    
+    <!-- /4905536/detik_desktop/news/skyscrapper -->
+    <div id="div-gpt-ad-1620027193979-0">
+      <!-- <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1620027193979-0'); });
+      </script> -->
+    </div>
+    
+    
+    
+    </div>
+    </div>
+    </div><!-- E:skyscraper --></div>
+    
+    <!-- S:newstag --><div class="detail__newstag" style="margin-top:10px;">
+    <ins data-labelname="newstag" data-revive-zoneid="651" data-revive-id="0cceecb9cae9f51a31123c541910d59b"></ins>
+    </div>
+    
+    <!-- /4905536/detik_desktop/news/newstag -->
+    <div id="div-gpt-ad-1634675610579-0">
+     <!-- <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1634675610579-0'); });
+      </script> -->
+    </div>
+    <!-- E:newstag --><!-- S:hiddenquiz --><!-- S:Revive -->
+    <ins data-labelname="hiddenquiz" data-revive-zoneid="2342" data-revive-id="0cceecb9cae9f51a31123c541910d59b"></ins>
+    <!-- E:Revive --><!-- E:hiddenquiz -->
+                </article>
+
+            </article>
+        </div>
+    </section>
+   
+    <!-- Contact -->
+    <div class="bg-neutral-900" id="kontak">
+        <div class="max-w-5xl px-4 py-10 mx-auto xl:px-0 lg:py-20">
+            <!-- Title -->
+            <!-- Title -->
+            <div class="grid grid-cols-1 gap-3 mb-10 text-center text-white">
+                <div class="text-sm uppercase tracking-[4px] opacity-70">24 hour</div>
+                <div class="text-3xl md:text-7xl tenor-sans">Lebih dekat dengan kami</div>
+            </div>
+            <!-- End Title -->
+            <!-- End Title -->
+            <!-- Grid -->
+            <div class="grid grid-cols-1 gap-x-10 lg:gap-x-16">
+                <!-- <div class="pb-10 mb-10 border-b md:order-2 border-neutral-800 md:border-b-0 md:pb-0 md:mb-0">
+                        <form>
+                            <div class="space-y-4">
+                                <div class="relative">
+                                    <input type="text" id="hs-tac-input-name" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="Name">
+                                    <label for="hs-tac-input-name" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Name</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="email" id="hs-tac-input-email" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="Email">
+                                    <label for="hs-tac-input-email" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Email</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="text" id="hs-tac-input-company" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="Company">
+                                    <label for="hs-tac-input-company" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Company</label>
+                                </div>
+                                <div class="relative">
+                                    <input type="text" id="hs-tac-input-phone" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="Phone">
+                                    <label for="hs-tac-input-phone" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Phone</label>
+                                </div>
+                                <div class="relative">
+                                    <textarea id="hs-tac-message" class="peer p-4 block w-full bg-neutral-800 border-transparent text-sm text-white placeholder:text-transparent focus:outline-none focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
+                                            focus:pt-6
+                                            focus:pb-2
+                                            [&:not(:placeholder-shown)]:pt-6
+                                            [&:not(:placeholder-shown)]:pb-2
+                                            autofill:pt-6
+                                            autofill:pb-2" placeholder="This is a textarea placeholder"></textarea>
+                                    <label for="hs-tac-message" class="absolute top-0 start-0 p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                                            peer-focus:text-xs
+                                            peer-focus:-translate-y-1.5
+                                            peer-focus:text-neutral-400
+                                            peer-[:not(:placeholder-shown)]:text-xs
+                                            peer-[:not(:placeholder-shown)]:-translate-y-1.5
+                                            peer-[:not(:placeholder-shown)]:text-neutral-400">Tell us about your
+                                        project</label>
+                                </div>
+                            </div> 
+                            <div class="my-5">
+                                <button type="submit"
+                                    class="inline-flex items-center px-3 py-2 text-sm font-medium text-black transition border border-transparent gap-x-2 bg-theme-500 hover:bg-theme-600 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-theme-600">
+                                    Hubungi Kami
+                                </button>
+                            </div>
+                        </form>
+                        </div> -->
+                <!-- End Col -->
+                <div class="text-center space-y-14">
+                    <!-- Item -->
+                    <div class="flex flex-col gap-5">
+                        <svg class="flex-shrink-0 mx-auto size-6 text-neutral-500" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                            <circle cx="12" cy="10" r="3" />
+                        </svg>
+                        <div class="grow">
+                            <h4 class="font-semibold text-white">Alamat Kami:</h4>
+                            <h5 class="mt-5 text-2xl tenor-sans text-theme-400">NGEYOGJA</h5>
+                            <address class="mt-1 text-sm not-italic text-neutral-400">
+                                Jl. Kaliurang Km 12,5 , Sardonoharjo, Ngaglik, Kabupaten Sleman, Daerah
+                                Istimewa Yogyakarta
+                            </address>
+                        </div>
+                    </div>
+                    <!-- End Item -->
+                    <!-- Item -->
+                    <div class="flex flex-col gap-5">
+                        <svg class="flex-shrink-0 mx-auto size-6 text-neutral-500" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z" />
+                            <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10" />
+                        </svg>
+                        <div class="grow">
+                            <h4 class="font-semibold text-white">Email us:</h4>
+                            <a class="mt-1 text-sm text-neutral-400" href="https://ngeyogja.com/" target="_blank">
+                                ngeyogjaboutiquevilla@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <!-- End Item -->
+                    <!-- Item -->
+                    <a target="_blank"
+                        href="https://wa.me/?phone=6282210101886&text=Halo+Kak%2C+saya+tertarik+dengan+Villa+ini&type=phone_number&app_absent=0"
+                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-black transition border border-transparent gap-x-2 bg-theme-500 hover:bg-theme-600 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:bg-theme-600">
+                        Hubungi Kami
+                    </a>
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Grid -->
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!-- ========== FOOTER ========== -->
+    <footer class="relative overflow-hidden bg-neutral-900">
+        <svg class="absolute -bottom-20 start-1/2 w-[1900px] transform -translate-x-1/2" width="2745" height="488"
+            viewBox="0 0 2745 488" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M0.5 330.864C232.505 403.801 853.749 527.683 1482.69 439.719C2111.63 351.756 2585.54 434.588 2743.87 487"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 308.873C232.505 381.81 853.749 505.692 1482.69 417.728C2111.63 329.765 2585.54 412.597 2743.87 465.009"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 286.882C232.505 359.819 853.749 483.701 1482.69 395.738C2111.63 307.774 2585.54 390.606 2743.87 443.018"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 264.891C232.505 337.828 853.749 461.71 1482.69 373.747C2111.63 285.783 2585.54 368.615 2743.87 421.027"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 242.9C232.505 315.837 853.749 439.719 1482.69 351.756C2111.63 263.792 2585.54 346.624 2743.87 399.036"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 220.909C232.505 293.846 853.749 417.728 1482.69 329.765C2111.63 241.801 2585.54 324.633 2743.87 377.045"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 198.918C232.505 271.855 853.749 395.737 1482.69 307.774C2111.63 219.81 2585.54 302.642 2743.87 355.054"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 176.927C232.505 249.864 853.749 373.746 1482.69 285.783C2111.63 197.819 2585.54 280.651 2743.87 333.063"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 154.937C232.505 227.873 853.749 351.756 1482.69 263.792C2111.63 175.828 2585.54 258.661 2743.87 311.072"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 132.946C232.505 205.882 853.749 329.765 1482.69 241.801C2111.63 153.837 2585.54 236.67 2743.87 289.082"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 110.955C232.505 183.891 853.749 307.774 1482.69 219.81C2111.63 131.846 2585.54 214.679 2743.87 267.091"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 88.9639C232.505 161.901 853.749 285.783 1482.69 197.819C2111.63 109.855 2585.54 192.688 2743.87 245.1"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 66.9729C232.505 139.91 853.749 263.792 1482.69 175.828C2111.63 87.8643 2585.54 170.697 2743.87 223.109"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 44.9819C232.505 117.919 853.749 241.801 1482.69 153.837C2111.63 65.8733 2585.54 148.706 2743.87 201.118"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 22.991C232.505 95.9276 853.749 219.81 1482.69 131.846C2111.63 43.8824 2585.54 126.715 2743.87 179.127"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+            <path
+                d="M0.5 1C232.505 73.9367 853.749 197.819 1482.69 109.855C2111.63 21.8914 2585.54 104.724 2743.87 157.136"
+                class="stroke-neutral-700/50" stroke="currentColor" />
+        </svg>
+        <div class="relative z-10">
+            <div class="w-full max-w-5xl px-4 py-10 mx-auto xl:px-0 lg:pt-16">
+                <div class="flex flex-col items-center">
+                    <!-- Logo -->
+                    <!-- End Logo -->
+                    <!-- Title -->
+                    <div class="grid justify-center grid-cols-1 gap-6 align-middle">
+                        <a class="flex-none inline-block text-4xl focus:outline-none focus:opacity-80"
+                            href="https://ngeyogja.com/">
+                            <img width="200" height="165" src="assets/img/logo.png" alt="ngeyogja"
+                                class="w-28 sm:w-[149px] mx-auto brightness-200 saturate-0">
+                        </a>
+                        <div class="text-[12px] text-white text-center uppercase  opacity-70">2024 —
+                            PT LOCCA DEVELOPMENT GROUP
+                        </div>
+                        </p>
+                    </div>
+                    <!-- End Title -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ========== END FOOTER ========== -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+    <script src="assets/js/preline.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
